@@ -1,111 +1,479 @@
-*{
- margin: 0px;
- padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-body{
+
+body {
     width: 100%;
-    min-height: auto;   
+    height: auto;
 }
-.cabecera img{
-  
+
+.navbar {
+    background-image: url(../imagenes/fondo\ \(1\).jpg);
+    
+}
+
+
+.container-fluid img {
+    width: 200px;
+    height: 70px;
     margin-left: 2%;
-    padding-top: 20px;
-    
-}
-
-.cabecera button{
-    
-    float: right;
-    margin-top: 30px;
-    margin-right:70px;
-}
-
-.botones_2{
-    background-color: aqua;
-    border: 2px solid  aqua ;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 20px;
-}
-.menu{
-    background: linear-gradient(to bottom right, purple, violet, purple, white);
-    border: 1px solid black;
-    padding-top: 2px;
-    border-radius: 3px;
-    width: 101%;
-    
-    
 
 }
 
-.menu ul li{
-    list-style-type: none;
-    display: inline-block;	
-    padding: 3pX;
-    margin-top: 9PX;
-    margin-right: 10px;
-    margin-left: 2%;
-    cursor: pointer;
-    font-weight: bold;
-    text-shadow: 2PX white;
-
-}
-
-.menu a:hover{
-    background:rgba(red, green, blue, alpha);
-}
-.banner {
-    position: relative;
-}
-  
-.banner img{
-
-    height: 450px;
-}
-
-.bannerh{
-    position: absolute;
-    top: 8%;
-    margin-left: 30%;
-}
-
-.banner p{
-    position:absolute;
-    top: 20%;
-    margin-left: 20%;
-    margin-right: 30%;
-    margin-top: 2%;
-    color: purple;
-    font-size: 20px;   
-}
-.botones_5{
-    cursor: pointer;
-    border: solid purple;
-    border-radius: 5px;
-    border-radius: 8px;
-    font-size: 30px;
-    color: black;
-    float: right;
-    margin-top: 7%;
-   margin-right: 10%;
-}
-
-
-
-.conteiner{
+.navbar-nav li {
     display: flex;
-    background-color: blueviolet;
-    width: 110%;
-    margin-right: 2%;
+    margin-left: 12%;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
 }
-.conteiner_uno{
-    margin-left: 3%;
-    
-}
-.conteiner p{
-    margin-left: 3%;
-    margin: center;
+
+.navbar-nav li a {
     color: black;
     text-align: center;
 }
 
+.navbar-nav li a:hover {
+    color:red;
+    
+}
+
+
+
+.btn {
+   background-color: blueviolet;
+    border-color: 4px solid black;
+    margin-left: 25em;
+    width: 220px;
+    height: 40px;
+    color: white;
+}
+
+.btn_uno {
+    margin-left: 5em;
+    font-size: 20px;
+}
+
+.card {
+    background-image: url(../imagenes/fondo\ \(1\).jpg);
+    box-shadow: 50px 30px 50px 10px;
+    color: palevioletred;
+}
+
+
+.card-title {
+    margin-top: 6%;
+    color: black;
+    font-size: 2em;
+    text-shadow: 1px 2px;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-top: 3%;
+    font-size: 25px;
+    color: black;
+}
+
+.titulo {
+    color: black;
+    text-shadow: 3px 1px 2px;
+}
+
+
+.card_uno {
+    width: 400px;
+    margin-left: 19%;
+    margin-top: 4%;
+    border: 10px solid orangered;
+    border-radius: 10px;
+
+}
+
+.card_uno h2 {
+    margin-top: 2%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+
+}
+
+.card_uno h2:hover {
+    color: red;
+}
+.img-car{
+ margin-top: 7%;
+}
+
+
+
+.intermedio h1 {
+
+    color: black;
+    text-align: center;
+    font-size: 38px;
+
+}
+
+.intermedio h1:hover {
+    color: purple;
+}
+
+.intermedio p {
+
+    text-align: center;
+    margin-top: 2%;
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.banner {
+    width: 105%;
+   
+    position: relative;
+    margin-left: 13em;
+
+}
+
+.banner img {
+    height: 490px;
+}
+
+.bannerh {
+    font-size: 2em;
+    text-shadow: 1px 2px;
+    font-weight: bold;
+    position: absolute;
+    top: 7%;
+    margin-left: 23%;
+    color: blueviolet;
+
+}
+
+.banner p {
+    position: absolute;
+    top: 10%;
+    margin-left: 9%;
+    margin-right: 30%;
+    margin-top: 2%;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.botones_5 {
+    cursor: pointer;
+    font-size: 25px;
+    background-color: pink;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: black;
+    margin-right: 400px;
+    float: right;
+    margin-top: 10%;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px purple;
+}
+
+
+.espacio {
+    background: linear-gradient(to bottom right, #4A235A, white, violet);
+    width: 100%;
+    height: 70px;
+
+}
+.espacio h1{
+    text-align: center;
+    padding-top: 22px;
+    font-size: 25px;
+    color: orangered;
+    font-weight: bolder;
+    
+}
+
+
+/*ESTILOS CSS PARA EQUIPO MEDICO*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    min-height: auto;
+}
+
+
+.conteiner_medico h5{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.conteiner_medico h5:hover{
+    color: purple;
+    cursor: pointer;
+}
+.conteiner_medico p{
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-left: 23%;
+    margin-top: 2%;
+  font-weight: bold;
+}
+
+.img_equipo{
+    width: 200px;
+    height: 200px;
+    margin-left: 15em;
+}
+.media_body h5{
+   font-size:30px;  
+   margin-right: 70%;
+}
+.p_equipo{
+    color: blueviolet;
+    margin-right: 60px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+/*estilos login*/
+.container_login {
+    position: relative;
+    background: linear-gradient(to bottom right, #4A235A, white, violet, black);
+}
+
+.container_login img {
+    width: 100%;
+    height: 450px;
+    opacity: 30%;
+
+}
+
+.texto {
+    position: absolute;
+    top: 8%;
+
+}
+
+
+
+/*estilo contactenos*/
+.cajas {
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.caja1 {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.caja2 {
+    width: 310px;
+    height: 200px;
+    background-color: red;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.uno {
+    background-color: palevioletred;
+}
+
+.caja1 img {
+    padding: 10%;
+    margin-left: 30%;
+    opacity: 70%;
+
+}
+
+.caja3 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+/*estilos para tips*/
+.fijo {
+    background-image: url(../imagenes/undraw_designer_re_5v95.svg);
+    background-color: red;
+    width: 100%px;
+    height: 200px;
+
+}
+
+.fijo h1 {
+    text-align: center;
+    color: purple;
+    font-size: 3em;
+}
+
+.fijo p {
+    text-align: center;
+    margin-right: 80px;
+    font-size: 2em;
+}
+
+.conteiner_veinte {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.conteiner_cinco {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin-right: 30px;
+}
+
+.conteiner_seis {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin-right: 30px;
+}
+
+.conteiner_siete {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-right: 30px;
+}
+
+/*estilos login*/
+
+.container_30 {
+   background-image: url(../imagenes/fondo\ \(1\).jpg);
+    height: 900PX;
+    padding-top: 5%;
+}
+
+.formulario {
+    background: rgba(115, 69, 141, 0.5);
+    border-color: 4px solid purple;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 30px 20px 30px 10px;
+    color: blueviolet;
+
+
+}
+
+.ingresar {
+    margin-top: 6%;
+    margin-left: 25%;
+    font-weight: 700px !important;
+    background-color: pink;
+    transition: 0, 5s ease-in;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.ingresar:hover {
+    color: purple;
+}
+
+.control {
+    width: 300px;
+    background: pink;
+    border-style: none;
+    transition: 0, 5s ease-in;
+    cursor: pointer;
+    padding: 10px;
+    border-color: 4px solid purple;
+    border-radius: 10px;
+}
+
+.control:focus {
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.control::placeholder {
+    color: black;
+}
+.text-dark{
+    margin-right: 30%;
+}
+/*footer*/
+
+.bg{
+
+    width: 100%;
+    background-image: url(../imagenes/fondo\ \(1\).jpg);
+    
+}
+.img_footer{
+    width: 300px;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+
+
+.col-3 ul li{
+    padding-top: 2%;
+    margin-left: 12%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.col-3 ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+.col-3_uno{
+    margin-left: 9%;
+    margin-top: 2%;
+}
+.col-3_dos{
+    margin-top: 50px;
+    font-size: 3em;  
+}
+.col-3_dos a{
+    color: red;
+    box-shadow: 14px 22px 12px ;
+   
+}
+.col-3_tres{
+    margin-top: 3%;
+}
+.col-3_tres a{
+    color: purple;
+    box-shadow: 14px 22px 12px ;
+    font-size: 3em;
+    
+    
+   
+}
+.col-3_cuatro{
+    margin-top: 4%;
+}
+.col-3_cuatro a{
+    color: orange;
+    box-shadow: 14px 22px 12px ;
+    font-size: 3em; 
+}
